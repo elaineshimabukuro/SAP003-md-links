@@ -28,13 +28,11 @@ Para executar esta biblioteca você deverá ter o node e npm instalados.
 
 ##### Argumento
 
-* `path`: Rota absoluta ou relativa ao arquivo. Se a rota passada é
-  relativa, deve resolver como sendo relativa ao diretório onde foi chamada -
-  _current working directory_
+* `path`: Rota absoluta ou relativa ao arquivo.
 
 ##### Valor de retorno
 
-A função deve retornar uma promessa (`Promise`) que resolve um array (`Array`) e
+A função retorna uma promessa (`Promise`) que resolve um array (`Array`) e
 objetos(`Object`), onde cada objeto representa um link, contendo as seguintes
 propriedades:
 
